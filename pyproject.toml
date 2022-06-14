@@ -32,7 +32,10 @@ dynamic = ["version", "description"]
 keywords = ["folders", "organisation", "filing"]
 requires-python = ">=3.6"
 dependencies = [
-    "typer[all]==0.4.1",
+    "typer==0.4.1",
+    "click >= 7.1.1, <9.0.0",
+    "colorama >=0.4.3,<0.5.0",
+    "shellingham >=1.3.0,<2.0.0"
 ]
 
 [tool.flit.module]
