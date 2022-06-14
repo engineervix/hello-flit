@@ -61,6 +61,8 @@
   - [Getting Started](#getting-started)
   - [Tests](#tests)
   - [Code Formatting](#code-formatting)
+- [Versioning / Creating a GitHub Release and Auto Publishing to PyPI](#versioning--creating-a-github-release-and-auto-publishing-to-pypi)
+- [Publishing](#publishing)
 - [Contributing](#contributing)
 - [TODO](#todo)
 
@@ -176,6 +178,28 @@ Test other Python versions by running `tox`.
 
 - Run `invoke lint` to run [`flake8`](https://flake8.pycqa.org/en/latest/), [`black`](https://black.readthedocs.io/en/stable/), [`isort`](https://pycqa.github.io/isort/) and [`mypy`](https://mypy.readthedocs.io/en/stable/) on the code.
 - If you get any errors from `black` and/or `isort`, run `invoke lint --fix` or `invoke lint -f` so that black and isort can format your files. Alternatively, just run `pre-commit`. You can take a look at [.pre-commit-config.yaml](https://github.com/engineervix/hello-flit/blob/main/.pre-commit-config.yaml).
+
+## Versioning / Creating a GitHub Release and Auto Publishing to PyPI
+
+This project uses both [commitizen-tools](https://github.com/commitizen-tools/commitizen) and [standard-version](https://github.com/conventional-changelog/standard-version) to manage package versions and changelogs. The former is a python package, and is included in [`requirements-dev.txt`](./requirements_dev.txt), while the latter is a Node.js package (you'll need to install it globally: `npm i -g standard-version`), whose config file is [`.versionrc`](./.versionrc).
+
+To bump to the next version:
+
+```bash
+inv bump
+```
+
+This will automagically create a tag, update the Changelog, commit the changes and push to your GitHub repo. If the CI tests are successful, a GitHub Release will be created and Flit will publish your package to the [CheeseShop](https://wiki.python.org/moin/CheeseShop).
+
+## Publishing
+
+```bash
+# to TestPyPI
+flit publish --repository testpypi
+
+# to PyPI
+flit publish
+```
 
 ## Contributing
 
