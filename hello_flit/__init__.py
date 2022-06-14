@@ -3,4 +3,4 @@ create a directory tree suitable for organizing your work using the Year / Quart
 """
 
 __app_name__ = "hello-flit"
-__version__ = "0.0.0"
+__version__ = "0.1.0"

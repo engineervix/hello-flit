@@ -89,7 +89,7 @@ target-version = ['py36', 'py37', 'py38', 'py39', 'py310']
 include = '\.pyi?$'
 
 [tool.commitizen]
-version = "0.0.0"
+version = "0.1.0"
 version_files = [
     "hello_flit/__init__.py",
 ]
