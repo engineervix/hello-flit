@@ -4,6 +4,18 @@
 <a href="https://testpypi.org/project/hello-flit" target="_blank">
   <img src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue" alt="Python Version">
 </a>
+<a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_blank">
+  <img alt="CLI application" src="https://badgen.net/badge/icon/terminal?icon=terminal&label">
+</a>
+<a href="https://www.gnu.org/gnu/linux-and-gnu.en.html" target="_blank">
+  <img alt="Runs on GNU/Linux" src="https://svgshare.com/i/Zhy.svg">
+</a>
+<a href="https://support.apple.com/en-us/HT201260" target="_blank">
+  <img alt="Runs on Mac OSX" src="https://svgshare.com/i/ZjP.svg">
+</a>
+<a href="https://www.microsoft.com/en-us/windows" target="_blank">
+  <img alt="Runs on Windows" src="https://svgshare.com/i/ZhY.svg">
+</a>
 <a href="https://github.com/engineervix/hello-flit/actions/workflows/main.yml" target="_blank">
   <img src="https://github.com/engineervix/hello-flit/actions/workflows/main.yml/badge.svg" alt="Build Status">
 </a>
