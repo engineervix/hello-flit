@@ -8,13 +8,13 @@
   <img src="https://github.com/engineervix/hello-flit/actions/workflows/main.yml/badge.svg" alt="Build Status">
 </a>
 <a href="https://codecov.io/gh/engineervix/hello-flit" target="_blank">
-  <img src="https://codecov.io/gh/engineervix/hello-flit/branch/master/graph/badge.svg" alt="codecov">
+  <img src="https://codecov.io/gh/engineervix/hello-flit/branch/main/graph/badge.svg" alt="codecov">
 </a>
-<a href="https://results.pre-commit.ci/latest/github/engineervix/hello-flit/master" target="_blank">
-  <img src="https://results.pre-commit.ci/badge/github/engineervix/hello-flit/master.svg" alt="pre-commit.ci status">
+<a href="https://results.pre-commit.ci/latest/github/engineervix/hello-flit/main" target="_blank">
+  <img src="https://results.pre-commit.ci/badge/github/engineervix/hello-flit/main.svg" alt="pre-commit.ci status">
 </a>
-<a href="https://github.com/engineervix/hello-flit/commits/master" target="_blank">
-  <img alt="GitHub commits since latest release (by SemVer)" src="https://img.shields.io/github/commits-since/engineervix/hello-flit/latest/master">
+<a href="https://github.com/engineervix/hello-flit/commits/main" target="_blank">
+  <img alt="GitHub commits since latest release (by SemVer)" src="https://img.shields.io/github/commits-since/engineervix/hello-flit/latest/main">
 </a>
 </p>
 
