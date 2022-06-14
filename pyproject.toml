@@ -1,0 +1,97 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "hello-flit"
+authors = [{name = "Victor Miti", email = "victormiti@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Education",
+    "Intended Audience :: Other Audience",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Utilities",
+    "Topic :: System :: Filesystems",
+    "Topic :: Office/Business",
+]
+dynamic = ["version", "description"]
+keywords = ["folders", "organisation", "filing"]
+requires-python = ">=3.6"
+dependencies = [
+    "typer[all]==0.4.1",
+]
+
+[tool.flit.module]
+name = "hello_flit"
+
+[project.scripts]
+hello-flit = "hello_flit.cli:app"
+
+[project.urls]
+Home = "https://github.com/engineervix/hello-flit"
+Source = "https://github.com/engineervix/hello-flit"
+Documentation = "https://github.com/engineervix/hello-flit#readme"
+
+[project.optional-dependencies]
+test = [
+    "pytest >=7.1.2,<8.0.0",
+    "pytest-cov >=3.0.0,<4.0.0",
+    "pytest-logger>=0.5.1,<1.0.0",
+    "pytest-mock>=3.7.0,<4.0.0; python_version >= '3.8'",
+    "pytest-mock<=3.6.1; python_version < '3.8'",
+    "pytest-sugar>=0.9.4,<1.0.0",
+    "flake8 >=4.0.1,<5.0.0",
+    "black == 22.3.0",
+    "isort >=5.10.1,<6.0.0",
+    "tox==3.25.0,<4.0.0; python_version >= '3.8'",
+    "tox==3.24.5,>3.0.0; python_version < '3.8'"
+]
+doc = [
+    "mkdocs >=1.3.0,<2.0.0; python_version >= '3.8'",
+    "mkdocs <=1.2.4,>1.0.0; python_version < '3.8'",
+    "mkdocs-material >=8.3.4,<9.0.0; python_version >= '3.8'",
+    "mkdocs-material <=8.2.7,>8.0.0; python_version < '3.8'",
+]
+dev = [
+    "black == 22.3.0",
+    "isort >=5.10.1,<6.0.0",
+    "flake8 >=4.0.1,<5.0.0",
+    "pre-commit >=2.19.0,<3.0.0; python_version >= '3.8'",
+    "pre-commit <=2.17.0,<3.0.0; python_version < '3.8'",
+    "invoke==1.7.1,<2.0.0",
+]
+# all = []
+
+[tool.isort]
+profile = "black"
+known_third_party = ["colorama", "invoke", "pytest", "tomli", "typer"]
+
+[tool.black]
+line-length = 120
+target-version = ['py36', 'py37', 'py38', 'py39', 'py310']
+include = '\.pyi?$'
+
+[tool.commitizen]
+version = "0.0.0"
+version_files = [
+    "hello_flit/__init__.py",
+]
+tag_format = "v$major.$minor.$patch"
+annotated_tag = true
+update_changelog_on_bump = false
+# changelog_file = "CHANGELOG.md"
+# changelog_incremental = true
