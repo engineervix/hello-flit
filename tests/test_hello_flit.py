@@ -1,3 +1,5 @@
+import os
+
 import pytest
 from typer.testing import CliRunner
 
@@ -17,7 +19,7 @@ def test_which_quarter(month, quarter):
     """
     output_dir = "2022"
     quarter_prefix = "qtr_"
-    result = f"{output_dir}/{quarter_prefix}{quarter:02d}"
+    result = f"{output_dir}{os.sep}{quarter_prefix}{quarter:02d}"
     assert which_quarter(month, output_dir, quarter_prefix) == result
 
 
