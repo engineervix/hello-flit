@@ -9,6 +9,8 @@ on:
     paths:
       - "docs/**/*"
       - "mkdocs.yml"
+    tags:
+      - "v*"
 
 jobs:
 
