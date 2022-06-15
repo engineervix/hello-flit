@@ -227,4 +227,4 @@ Once you are done, please create a [pull request](https://github.com/engineervix
 
 ## TODO
 
-- [ ] Replicate this but with a Wagtail / Django package
+- [x] Replicate this but with a Wagtail / Django package. See [@engineervix/hello-flit-django-modelcluster](https://github.com/engineervix/hello-flit-django-modelcluster)
