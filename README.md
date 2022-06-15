@@ -124,7 +124,7 @@ Well, what this project does isn't very important. The main point of this projec
 ## Installation
 
 ```bash
-pip install -i https://test.pypi.org/simple/ hello-flit
+pip install -i https://test.pypi.org/simple --extra-index-url https://pypi.python.org/simple hello-flit
 ```
 
 ## Usage
