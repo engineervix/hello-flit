@@ -124,10 +124,10 @@ Well, what this project does isn't very important. The main point of this projec
 
 - This is more-or-less a **typical python package**, with a structure similar to that created using [@audreyfeldroy/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
 - Supports Python 3.6+
-- tests written using [Pytest], Linting with Black, Flake8, Isort
+- tests written using [Pytest](https://docs.pytest.org/), Linting with [black](https://github.com/psf/black), [flake8](https://flake8.pycqa.org/en/latest/), [isort](https://github.com/PyCQA/isort)
 - Uses [tox](https://tox.wiki/en/latest/) for test automation
 - The CLI is powered by [Typer](https://typer.tiangolo.com)
-- Documentation using [Mkdocs](https://mkdocs.org/) and [mkdocs-material](https://squidfunk.github.io/mkdocs-material)
+- Documentation using [mkdocs](https://mkdocs.org/) and [mkdocs-material](https://squidfunk.github.io/mkdocs-material)
 
 ## Documentation
 
@@ -142,7 +142,7 @@ pip install -i https://test.pypi.org/simple --extra-index-url https://pypi.pytho
 ## Usage
 
 ```txt
-Usage: cli.py [OPTIONS] [YEAR]
+Usage: hello-flit [OPTIONS] [YEAR]
 
 Arguments:
   [YEAR]  the year for which you'd like to create a directory tree  [default: <current_year>]
@@ -177,7 +177,7 @@ At this stage, hopefully everything should be working fine, and you should be ab
 You can run the application via `inv run [options]` or
 
 ```sh
-python hello-flit/cli.py [YEAR]
+python hello_flit/cli.py [options]
 ```
 
 ### Tests

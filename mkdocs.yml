@@ -2,3 +2,10 @@ site_name: Hello Flit
 
 theme:
   name: material
+
+repo_url: https://github.com/engineervix/hello-flit
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: datetime
