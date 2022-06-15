@@ -41,6 +41,9 @@ dependencies = [
 [tool.flit.module]
 name = "hello_flit"
 
+[tool.flit.sdist]
+exclude = [".github/", ".vscode/"]
+
 [project.scripts]
 hello-flit = "hello_flit.cli:app"
 
