@@ -16,8 +16,14 @@
 <a href="https://www.microsoft.com/en-us/windows" target="_blank">
   <img alt="Runs on Windows" src="https://svgshare.com/i/ZhY.svg">
 </a>
+</p>
+
+<p align="center">
 <a href="https://github.com/engineervix/hello-flit/actions/workflows/main.yml" target="_blank">
   <img src="https://github.com/engineervix/hello-flit/actions/workflows/main.yml/badge.svg" alt="Build Status">
+</a>
+<a href="https://github.com/engineervix/hello-flit/actions/workflows/docs.yml" target="_blank">
+  <img src="https://github.com/engineervix/hello-flit/actions/workflows/docs.yml/badge.svg" alt="Docs Build Status">
 </a>
 <a href="https://codecov.io/gh/engineervix/hello-flit" target="_blank">
   <img src="https://codecov.io/gh/engineervix/hello-flit/branch/main/graph/badge.svg" alt="codecov">

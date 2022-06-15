@@ -116,14 +116,3 @@ jobs:
           name: ${{ steps.get_release_title.outputs.RELEASE_NAME }}
           body_path: ../LATEST_RELEASE_NOTES.md
           files: dist/*
-
-  docs:
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-      - run: pip install mkdocs-material
-
-      - run: mkdocs gh-deploy --force
