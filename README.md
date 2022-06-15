@@ -60,6 +60,7 @@
 - [What's Flit?](#whats-flit)
 - [What does this project do?](#what-does-this-project-do)
 - [Project features](#project-features)
+- [Documentation](#documentation)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
@@ -126,6 +127,11 @@ Well, what this project does isn't very important. The main point of this projec
 - tests written using [Pytest], Linting with Black, Flake8, Isort
 - Uses [tox](https://tox.wiki/en/latest/) for test automation
 - The CLI is powered by [Typer](https://typer.tiangolo.com)
+- Documentation using [Mkdocs](https://mkdocs.org/) and [mkdocs-material](https://squidfunk.github.io/mkdocs-material)
+
+## Documentation
+
+Read the docs: <https://engineervix.github.io/hello-flit/>
 
 ## Installation
 

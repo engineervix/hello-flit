@@ -50,7 +50,7 @@ hello-flit = "hello_flit.cli:app"
 [project.urls]
 Home = "https://github.com/engineervix/hello-flit"
 Source = "https://github.com/engineervix/hello-flit"
-Documentation = "https://github.com/engineervix/hello-flit#readme"
+Documentation = "https://engineervix.github.io/hello-flit"
 
 [project.optional-dependencies]
 test = [
