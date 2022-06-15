@@ -4,6 +4,13 @@ All notable changes to this project will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project attempts to adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.1.3](https://github.com/engineervix/hello-flit/compare/v0.1.2...v0.1.3) (2022-06-15)
+
+
+### ♻️ Code Refactoring
+
+* add dedicated link to docs ([27d5230](https://github.com/engineervix/hello-flit/commit/27d5230c16343012505d2e8cec2dcc2bc2603cf1))
+
 ## [v0.1.2](https://github.com/engineervix/hello-flit/compare/v0.1.1...v0.1.2) (2022-06-15)
 
 
