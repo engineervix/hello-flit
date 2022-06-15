@@ -4,6 +4,14 @@ All notable changes to this project will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project attempts to adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.1.4](https://github.com/engineervix/hello-flit/compare/v0.1.3...v0.1.4) (2022-06-15)
+
+
+### 📝 Docs
+
+* add reference to pyinvoke.org ([4937efa](https://github.com/engineervix/hello-flit/commit/4937efaf80669684ed0969a17a10c3bda864ab51))
+* correct typos, use git-revision-date-localized plugin ([a44c6c9](https://github.com/engineervix/hello-flit/commit/a44c6c928ba4ec4facbc3bf811ac3bd1d0668fa9))
+
 ## [v0.1.3](https://github.com/engineervix/hello-flit/compare/v0.1.2...v0.1.3) (2022-06-15)
 
 
