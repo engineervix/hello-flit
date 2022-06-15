@@ -4,6 +4,13 @@ All notable changes to this project will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project attempts to adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.1.1](https://github.com/engineervix/hello-flit/compare/v0.1.0...v0.1.1) (2022-06-15)
+
+
+### 🐛 Bug Fixes
+
+* **docs:** update install instructions ([c1bc7fd](https://github.com/engineervix/hello-flit/commit/c1bc7fd244a9fa266be08e04f7a5f7dc499e12fc))
+
 ## [v0.1.0](https://github.com/engineervix/hello-flit/compare/v0.0.0...v0.1.0) (2022-06-14)
 
 
