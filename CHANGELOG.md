@@ -4,6 +4,24 @@ All notable changes to this project will be documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project attempts to adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.1.2](https://github.com/engineervix/hello-flit/compare/v0.1.1...v0.1.2) (2022-06-15)
+
+
+### 📝 Docs
+
+* trivial change to test out 0bcaf33 ([b3b1523](https://github.com/engineervix/hello-flit/commit/b3b152363c697add0c59a4b58f20edad390e8ad5))
+
+
+### ♻️ Code Refactoring
+
+* exclude some paths from sdist tarball ([01ccf1c](https://github.com/engineervix/hello-flit/commit/01ccf1cee294bb8fd2cea78ff1f7f055425a3591))
+* only trigger GH Pages when there are changes in docs files ([0bcaf33](https://github.com/engineervix/hello-flit/commit/0bcaf334b3b0713623e38d1dcbb3d45579123710))
+
+
+### 👷 CI/CD
+
+* enhance the docs workflow ([0111e95](https://github.com/engineervix/hello-flit/commit/0111e954da1fbbe12db92c86fda6d1e0f254b8ef))
+
 ## [v0.1.1](https://github.com/engineervix/hello-flit/compare/v0.1.0...v0.1.1) (2022-06-15)
 
 
