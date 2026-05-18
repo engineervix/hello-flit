@@ -1,4 +1,5 @@
 """Console script for hello_flit."""
+
 import os
 import sys
 from datetime import date
